@@ -8,7 +8,7 @@ using System.Text;
 
 namespace DataAccess.Concrete.InMemory
 {
-    public class InMemoryBrandDal : IEntityRepository<Brand>
+    public class InMemoryBrandDal : IBrandDal
     {
         List<Brand> _Brands;
 
